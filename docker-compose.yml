@@ -30,7 +30,7 @@ services:
       - postgres-admin
 
   elasticsearch:
-    image: elasticsearch:7.13.2
+    image: elasticsearch:7.13.4
     environment:
       discovery.type: single-node
       ES_JAVA_OPTS: -Xms512m -Xmx512m
